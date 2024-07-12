@@ -1,0 +1,20 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deployALP": "npx hardhat ignition deploy ./ignition/modules/AaveLiquidityPool.js --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.6"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
